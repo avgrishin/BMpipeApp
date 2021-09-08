@@ -474,12 +474,12 @@ namespace Bloomberglp.Blpapi.BMpipeApp
           /*"JPEMRUS INDEX",*/
           /*"RRSWM1 CMPN CURNCY", "RRSWM2 CMPN CURNCY", "RRSWM3 CMPN CURNCY", "RRSWM4 CMPN CURNCY", "RRSWM5 CMPN CURNCY", "RRSWM7 CMPN CURNCY", "RRSWM10 CMPN CURNCY", "RRSWM15 CMPN CURNCY",*/
           /*"MOSKON INDEX", "MOSKP1 INDEX", "MOSKP3 INDEX", "MOSKP6 INDEX", "MOSK1W INDEX",*/
-          /*"RTSVX INDEX", "RPRMGOLD INDEX", "SGFS INDEX",*/
+          /*"RTSVX INDEX", "SGFS INDEX",*/
           /*"JCMBRU INDEX",*/
           /*"EURRUB BGN CURNCY", "GBPUSD BGN CURNCY", "CADUSD BGN CURNCY", "HKDUSD BGN CURNCY",*/
           /*"GSIN Index",*/
           blpapi.sendHistDataRequestList(new List<string> { "US0001M INDEX", "US0002M INDEX", "US0003M INDEX", "US0004M INDEX", "US0005M INDEX", "US0006M INDEX", "US0009M INDEX", "US0012M INDEX", "MXWO Index", "MXWO0MM Index", "MXWO0EN Index", "MXWO0FN Index", "MXWO0IT Index", "MXWO0TC Index", "DGLSO INDEX", "EMBSO INDEX", "VWOSO INDEX", "RWOSO INDEX", "DBCSO INDEX", "LQDSO INDEX", "IYFSO INDEX", "PNQISO INDEX", "DSISO INDEX", "IEZSO INDEX", "IEOSO INDEX", "SPX INDEX", "CCMP INDEX", "NDX INDEX", "UKX INDEX", "SPTSX INDEX", "XAU CURNCY", "USDRUB BGN CURNCY", "FCNTX US Equity", "DODGX US Equity", "FXAIX US Equity", "TRBCX US Equity", "FBGRX US Equity", "AGTHX US Equity", "EGFIX US Equity", "OAKMX US Equity", "SGENX US Equity", "POLIX US Equity", "SEQUX US Equity", "PFPFX US Equity", "LEIFX US Equity", "ABVAX US Equity", "SCAUX US Equity", "LLPFX US Equity",
-          "SXXP Index", "CO1 Comdty", "RUONIA Index", "DXY Curncy", "MXEF Index", "CRB METL Index", "EURUSD CURNCY", "MOSKP3 INDEX", "GLTR US Equity","CRUSS1U5 Index", "CMEX1U5 Index", "CBRZ1U5 Index", "CTURK1U5 Index", "RRSWM1 CMPN CURNCY", "RRSWM3 CMPN CURNCY", "RRSWM5 CMPN CURNCY", "RRSWM7 CMPN CURNCY", "RRSWM10 CMPN CURNCY", "MOSKON INDEX", "LG30TRUU INDEX" }, flist, "", "", DateTime.Today.AddDays(-10), DateTime.Today, e =>
+          "SXXP Index", "CO1 Comdty", "RUONIA Index", "DXY Curncy", "MXEF Index", "CRB METL Index", "EURUSD CURNCY", "MOSKP3 INDEX", "GLTR US Equity","CRUSS1U5 Index", "CMEX1U5 Index", "CBRZ1U5 Index", "CTURK1U5 Index", "RRSWM1 CMPN CURNCY", "RRSWM3 CMPN CURNCY", "RRSWM5 CMPN CURNCY", "RRSWM7 CMPN CURNCY", "RRSWM10 CMPN CURNCY", "MOSKON INDEX", "LG30TRUU INDEX", "RPRMGOLD INDEX" }, flist, "", "", DateTime.Today.AddDays(-10), DateTime.Today, e =>
           //blpapi.sendHistDataRequestList(new List<string> { "CRUSS1U5 Index", "CMEX1U5 Index", "CBRZ1U5 Index", "CTURK1U5 Index" }, flist, "", "", DateTime.Today.AddYears(-10), DateTime.Today, e =>
           {
             string ticker = e.GetElementAsString("security");
